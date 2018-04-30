@@ -35,7 +35,7 @@ public class hand : MonoBehaviour {
 
     void Update ()
     {
-        if (Controller.GetPress(SteamVR_Controller.ButtonMask.Touchpad))    // show when press touchpad
+        if (Controller.GetPress(SteamVR_Controller.ButtonMask.Trigger))    // show when press trigger
         {
             RaycastHit hit;
 
